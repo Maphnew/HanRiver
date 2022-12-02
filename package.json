@@ -1,0 +1,66 @@
+{
+    "name": "antd-frmwrk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie < 11",
+        "not op_mini all"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.15.7",
+        "@babel/core": "^7.15.8",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/plugin-transform-runtime": "^7.14.3",
+        "@babel/preset-env": "^7.15.8",
+        "@babel/preset-react": "^7.14.5",
+        "@babel/preset-typescript": "^7.16.7",
+        "@babel/runtime-corejs3": "^7.14.0",
+        "@types/node": "^17.0.11",
+        "@types/react": "^17.0.38",
+        "@types/react-dom": "^17.0.11",
+        "babel-loader": "^8.2.3",
+        "babel-plugin-module-resolver": "^4.1.0",
+        "core-js": "^3.22.5",
+        "css-loader": "^6.7.1",
+        "fork-ts-checker-webpack-plugin": "^6.5.0",
+        "html-webpack-plugin": "^5.4.0",
+        "mini-css-extract-plugin": "^2.4.3",
+        "node-sass": "^6.0.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass-loader": "^12.6.0",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "@ant-design/compatible": "^1.1.0",
+        "@reduxjs/toolkit": "^1.7.1",
+        "ag-grid-community": "^25.3.0",
+        "ag-grid-react": "^26.2.0",
+        "antd": "^4.17.1",
+        "axios": "^0.24.0",
+        "common-js": "ssh://git@192.168.0.119:7999/com/common-js.git#8bf63efedfc",
+        "moment": "^2.29.1",
+        "react": "^17.0.2",
+        "react-custom-scrollbars": "^4.2.1",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^6.2.1",
+        "webpack": "^5.64.4",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.6.0"
+    },
+    "resolutions": {
+        "**/slickgrid": "2.4.38"
+    }
+}

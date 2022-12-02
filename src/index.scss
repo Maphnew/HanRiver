@@ -1,0 +1,51 @@
+// @import "~antd/dist/antd.css";
+@import "./assets/scss/global";
+@import "/node_modules/ag-grid-community/dist/styles/ag-grid.css";
+@import "/node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css";
+@import "/node_modules/ag-grid-community/dist/styles/ag-theme-balham.css";
+@import "~common-js/sass/main";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+// ::-webkit-scrollbar-track {
+//     background: #eeeeee;
+// }
+
+
+body.ds-theme-dark {
+    ::-webkit-scrollbar-track {
+        background: #323232;
+    }
+}
+
+
+/* Handle */
+// ::-webkit-scrollbar-thumb {
+//     background: #e6e6e6;
+//     border-radius: 5px;
+// }
+
+body.ds-theme-dark {
+    ::-webkit-scrollbar-thumb {
+        background: #191919;
+    }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d4d4d4e0;
+}

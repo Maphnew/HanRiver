@@ -1,0 +1,8 @@
+// 상세검색 버튼 위치 설정
+.detail-search > .ant-form-item-label > label {
+    display: block;
+}
+
+.ant-form-item {
+    margin-bottom: 8px; // 24px;
+}

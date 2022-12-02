@@ -1,0 +1,9 @@
+.logo {
+    height: $header-height;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: transparent;
+    transition: all 0.2s ease;
+    width: $logo-width;
+}

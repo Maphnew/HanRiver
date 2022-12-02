@@ -1,0 +1,9 @@
+.side-nav {
+    & .ant-layout-sider-children {
+        & > div {
+            & > div {
+                overflow-x: hidden;
+            }
+        }
+    }
+}

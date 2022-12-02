@@ -1,0 +1,10 @@
+.ant-modal-root {
+    & > .ant-modal-mask {
+        z-index: $zindex-modal-backdrop;
+    }
+    
+    & > .ant-modal-wrap {
+        z-index: $zindex-modal;
+    }
+}
+
